@@ -1,3 +1,7 @@
+mod dxf_features;
+
 fn main() {
-    println!("Hello, world!");
+    let _ = dxf_features::read(String::from("value"));
 }
+
+
